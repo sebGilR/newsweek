@@ -118,10 +118,23 @@ body {
   display: none;
 }
 
+.top-story--2 {
+  display: none;
+}
+
+.opinion--2 {
+  display: none;
+}
+
+.the-debate--2 {
+  display: none;
+}
+
 .news-section__header {
   color: rgba(3,3,3,0.4);
   font-size: 16px;
   padding-top: 15px;
+  font-weight: bold;
 }
 
 .news__article {
@@ -168,6 +181,125 @@ body {
   border-top: 1px solid #e2e2e2;
 }
 
+.opinion-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.opinion-list__item {
+  display: flex;
+  padding: 10px 0;
+}
+
+.opinion-list__item:not(:first-child) {
+  border-top: 1px solid #ddd;
+}
+
+.opinion-list__headshot {
+  margin-right: 15px;
+}
+
+.opinion-list__author {
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: #555;
+}
+
+.debate--1 {
+  border-top: 4px solid #f92859;
+}
+
+.debate--2 {
+  border-top: 4px solid #1c87fb;
+}
+
+.debate__head {
+  display: flex;
+}
+
+.debate__head a {
+  width: calc(100% - 95px);
+}
+
+.debate__head__img {
+  width: 95px;
+  height: 95px;
+  margin-right: 15px;
+}
+
+.debate__link {
+  font-weight: bold;
+}
+
+.debate__link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.debate__author__headshot {
+  width: 63px;
+  height: 63px;
+  right: 0;
+  z-index: 3;
+}
+
+.debate__author {
+  height: 63px;
+}
+
+.debate__author::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 1px;
+  top: 12px;
+  left: 0;
+  right: 0;
+  background-color: #d9d9d9;
+}
+
+.debate__author::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 1px;
+  top: 15px;
+  left: 0;
+  right: 0;
+  background-color: #d9d9d9;
+}
+
+.debate__author p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.debate__author span {
+  font-weight: bold;
+  color: black;
+}
+
+.debate__vs span{
+  height: 40px;
+  width: 40px;
+  margin: 14px auto 18px;
+  border-radius: 50%;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+}
+
+/**************************************************************************
+************                FIRST BREAK            *************
+**************************************************************************/
+
 @media screen and (min-width: 481px) {
   .header__right a {
     padding: 0 10px;
@@ -179,7 +311,12 @@ body {
     margin-left: 10px;
     font-weight: 300;
   }
+
 }
+
+/**************************************************************************
+************                SECOND BREAK            *************
+**************************************************************************/
 
 @media screen and (min-width: 768px) {
   .header__weather__location {
@@ -189,9 +326,38 @@ body {
   .section__break {
     display: none;
   }
+
+  .top-story--1 {
+    display: none;
+  }
+
+  .opinion--1 {
+    display: none;
+  }
+
+  .opinion--2 {
+    display: inline-block;
+  }
+
+  .the-debate--1 {
+    display: none;
+  }
+  
+  .the-debate--2 {
+    display: inline-block;
+  }
+
+  .top-story--2 {
+    display: inline-block;
+  }
 }
 
+/**************************************************************************
+************                THIRD BREAK            *************
+**************************************************************************/
+
 @media screen and (min-width: 992px) {
+    
   .container-fluid {
     max-width: 1310px;
   }
@@ -293,4 +459,13 @@ body {
     transition: all 0.3s ease;
   }
 
+  .news-section > .col-lg-7 {
+    flex: 0 0 71%;
+    max-width: 71%;
+  }
+
+  .news-section > .col-lg-5 {
+    flex: 0 0 29%;
+    max-width: 29%;
+  }
 }

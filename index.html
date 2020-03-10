@@ -53,76 +53,255 @@
                 </form>
             </nav>
         </header>
-        <main class="container-fluid">
-            <div class="news-section row">
-                <section class="col-sm-7 order-sm-1">
-                    <h2 class="news-section__header uppercase">Top Story</h2>
-                    <article class="news__article w-100">
-                        <div class="wrap">
-                            <img class="w-100" src="https://d.newsweek.com/en/full/1572397/tehran-iran-coronavirus-march-2020.jpg?w=591&h=364&f=57537abb43239ab66881b3c640da3b93" alt="Picture">
-                            <span class="news__article__category r-txt uppercase">News</span>
-                        </div>
-                        <a class="link link--underline" href="#"><h3 class="news__article__header--big">Coronavirus Fears See Oil Prices Suffer Historic Collapse in Global Market</h3></a>
-                        <p class="news__article__description">While the death toll has climbed to more than 3,800, around 88 countries have yet to report any cases of the virus, while at least 62,053 people globally have recovered from the injection.</p>
-                    </article>
-                </section>
-                <div class="w-100 section__break"></div>
-                <section class="col-sm-5 order-sm-0">
-                    <h2 class="news-section__header uppercase">Featured Stories</h2>
-                    <article class="news__article w-100">
-                        <div class="wrap">
-                            <img class="w-100" src="https://d.newsweek.com/en/full/1572430/afghanistan-president-ceremony-explosions-ghani.jpg?w=397&h=265&q=90&f=d9bbe644aa3e9a7cfc692814594b59d1" alt="Picture">
-                            <span class="news__article__category r-txt uppercase">World</span>
-                        </div>
-                        <a class="link link--underline" href="#"><h3 class="news__article__header">Explosions Interrupt Afghan President Inauguration Amid Post-Peace Unrest</h3></a>
-                        <p class="news__article__description">Afghan President Ashraf Ghani opened his suit to reveal he was not wearing a bulletproof vest and announced that he would sacrifice himself for his country and its people.</p>
-                    </article>
-                    <article class="news__article w-100">
-                        <div class="wrap">
-                            <img class="w-100" src="https://d.newsweek.com/en/full/1572382/fiona-hill-russia-donald-trump-vladimir-putin.jpg?w=397&h=265&q=90&f=2415a3b81cc7cc70f72b059233781bf3" alt="Picture">
-                            <span class="news__article__category r-txt uppercase">Politics</span>
-                        </div>
-                        <a class="link link--underline" href="#"><h3 class="news__article__header">Trump Avoids Insulting Vladimir Putin for Fear of 'Revenge': Fiona Hill</h3></a>
-                        <p class="news__article__description">The former White House Russia adviser said the president avoids insulting leaders like Putin while treating allied leaders "as though they're business counterparts."</p>
-                        <a class="link link--red" href="#"><h4 class="news__article__related">Putin Targets U.S. Fracking With Oil Price War</h4></a>
-                    </article>
-                    <article class="news__article w-100">
-                        <div class="wrap">
-                            <img class="w-100" src="https://d.newsweek.com/en/full/1572481/squid-swimming-near-komodo-island.jpg?w=397&h=265&q=90&f=a8f621e0fe5f3c219b47c2baa02383fe" alt="Picture">
-                            <span class="news__article__category r-txt uppercase">Tech & Science</span>
-                        </div>
-                        <a class="link link--underline" href="#"><h3 class="news__article__header">Climate Change Once Made Ancient Creatures Shrink</h3></a>
-                        <p class="news__article__description">The fossil record suggests belemnites shrunk 40 percent around 183 million years ago, when volcanic eruptions caused temperatures to rise.</p>
-                    </article>
-                    <article class="news__article w-100">
-                        <div class="wrap">
-                            <img class="w-100" src="https://d.newsweek.com/en/full/1571858/harry-meghan.jpg?w=397&h=265&l=0&t=0&q=90&f=b1ebfd0b58ce03f8ae98b9f1db9ef333" alt="Picture">
-                            <span class="news__article__category r-txt uppercase">World</span>
-                        </div>
-                        <a class="link link--underline" href="#"><h3 class="news__article__header">What Meghan Markle and Prince Harry Did in Final Royal Appearances</h3></a>
-                        <p class="news__article__description">The Duke and Duchess of Sussex's farewell tour has included some show-stopping photo opportunities and predictable press negativity as they prepare to leave the royal family.</p>
-                    </article>
-                </section>
-                <div class="w-100 section__break"></div>
-                <section class="col-sm-12 order-sm-4">
-                    <h2 class="news-section__header uppercase">Opinion</h2>
-                </section>
-                <div class="w-100 section__break"></div>
-                <section class="col-sm-12 order-sm-5">
-                    <h2 class="news-section__header uppercase">The Debate</h2>
-                </section>
-                <div class="w-100 section__break"></div>
-                <section class="col-sm-5 order-sm-3">
-                    <h2 class="news-section__header uppercase">More Stories</h2>
-                </section>
-                <div class="w-100 section__break"></div>
-                <section class="col-sm-7 order-sm-2">
-                    <h2 class="news-section__header uppercase">Culture & Travel</h2>
-                </section>
-                <div class="w-100 section__break"></div>
-                <section class="col-sm-12 order-sm-6">
-                    <h2 class="news-section__header uppercase">Latest News</h2>
-                </section>
+        <main class="main container-fluid">
+            <div class="news-section row flex-wrap align-content-start">
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-5 order-md-0"> <!-- Col 1 -->
+                            <section class="section top-story--1">
+                                <h2 class="news-section__header uppercase">Top Story</h2>
+                                <article class="news__article w-100">
+                                    <div class="wrap">
+                                        <img class="w-100" src="https://d.newsweek.com/en/full/1572397/tehran-iran-coronavirus-march-2020.jpg?w=591&h=364&f=57537abb43239ab66881b3c640da3b93" alt="Picture">
+                                        <span class="news__article__category r-txt uppercase">News</span>
+                                    </div>
+                                    <a class="link link--underline" href="#"><h3 class="news__article__header--big">Coronavirus Fears See Oil Prices Suffer Historic Collapse in Global Market</h3></a>
+                                    <p class="news__article__description">While the death toll has climbed to more than 3,800, around 88 countries have yet to report any cases of the virus, while at least 62,053 people globally have recovered from the injection.</p>
+                                </article>
+                            </section>
+                            <section class="order-md-0">
+                                <h2 class="news-section__header uppercase">Featured Stories</h2>
+                                <article class="news__article w-100">
+                                    <div class="wrap">
+                                        <img class="w-100" src="https://d.newsweek.com/en/full/1572430/afghanistan-president-ceremony-explosions-ghani.jpg?w=397&h=265&q=90&f=d9bbe644aa3e9a7cfc692814594b59d1" alt="Picture">
+                                        <span class="news__article__category r-txt uppercase">World</span>
+                                    </div>
+                                    <a class="link link--underline" href="#"><h3 class="news__article__header">Explosions Interrupt Afghan President Inauguration Amid Post-Peace Unrest</h3></a>
+                                    <p class="news__article__description">Afghan President Ashraf Ghani opened his suit to reveal he was not wearing a bulletproof vest and announced that he would sacrifice himself for his country and its people.</p>
+                                </article>
+                                <article class="news__article w-100">
+                                    <div class="wrap">
+                                        <img class="w-100" src="https://d.newsweek.com/en/full/1572382/fiona-hill-russia-donald-trump-vladimir-putin.jpg?w=397&h=265&q=90&f=2415a3b81cc7cc70f72b059233781bf3" alt="Picture">
+                                        <span class="news__article__category r-txt uppercase">Politics</span>
+                                    </div>
+                                    <a class="link link--underline" href="#"><h3 class="news__article__header">Trump Avoids Insulting Vladimir Putin for Fear of 'Revenge': Fiona Hill</h3></a>
+                                    <p class="news__article__description">The former White House Russia adviser said the president avoids insulting leaders like Putin while treating allied leaders "as though they're business counterparts."</p>
+                                    <a class="link link--red" href="#"><h4 class="news__article__related">Putin Targets U.S. Fracking With Oil Price War</h4></a>
+                                </article>
+                                <article class="news__article w-100">
+                                    <div class="wrap">
+                                        <img class="w-100" src="https://d.newsweek.com/en/full/1572481/squid-swimming-near-komodo-island.jpg?w=397&h=265&q=90&f=a8f621e0fe5f3c219b47c2baa02383fe" alt="Picture">
+                                        <span class="news__article__category r-txt uppercase">Tech & Science</span>
+                                    </div>
+                                    <a class="link link--underline" href="#"><h3 class="news__article__header">Climate Change Once Made Ancient Creatures Shrink</h3></a>
+                                    <p class="news__article__description">The fossil record suggests belemnites shrunk 40 percent around 183 million years ago, when volcanic eruptions caused temperatures to rise.</p>
+                                </article>
+                                <article class="news__article w-100">
+                                    <div class="wrap">
+                                        <img class="w-100" src="https://d.newsweek.com/en/full/1571858/harry-meghan.jpg?w=397&h=265&l=0&t=0&q=90&f=b1ebfd0b58ce03f8ae98b9f1db9ef333" alt="Picture">
+                                        <span class="news__article__category r-txt uppercase">World</span>
+                                    </div>
+                                    <a class="link link--underline" href="#"><h3 class="news__article__header">What Meghan Markle and Prince Harry Did in Final Royal Appearances</h3></a>
+                                    <p class="news__article__description">The Duke and Duchess of Sussex's farewell tour has included some show-stopping photo opportunities and predictable press negativity as they prepare to leave the royal family.</p>
+                                </article>
+                            </section>
+                        </div>     
+                        <div class="col-md-7 col-lg-7"> <!-- Col 2-->
+                            <section class="section top-story--2 order-md-0">
+                                <h2 class="news-section__header uppercase">Top Story</h2>
+                                <article class="news__article w-100">
+                                    <div class="wrap">
+                                        <img class="w-100" src="https://d.newsweek.com/en/full/1572397/tehran-iran-coronavirus-march-2020.jpg?w=591&h=364&f=57537abb43239ab66881b3c640da3b93" alt="Picture">
+                                        <span class="news__article__category r-txt uppercase">News</span>
+                                    </div>
+                                    <a class="link link--underline" href="#"><h3 class="news__article__header--big">Coronavirus Fears See Oil Prices Suffer Historic Collapse in Global Market</h3></a>
+                                    <p class="news__article__description">While the death toll has climbed to more than 3,800, around 88 countries have yet to report any cases of the virus, while at least 62,053 people globally have recovered from the injection.</p>
+                                </article>
+                            </section>
+                            <section class="section opinion--1">
+                                <h2 class="news-section__header uppercase">Opinion</h2>
+                                <ul class="opinion-list">
+                                    <li class="opinion-list__item">
+                                        <div class="opinion-list__headshot">
+                                            <a href="#"><img src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=63&h=63&f=241bf306fe74b397c2ecf4116cc79b62" alt="Nigel Farage"></a>
+                                        </div>
+                                        <div class="opinion-list__info">
+                                            <a class="opinion-list__title link link--red" href="#">Protecting Us All From an Epidemic Should Be Prioritized Over the Economy</a>
+                                            <p class="opinion-list__author uppercase">By Nigel Farage</p>
+                                        </div>
+                                    </li>
+                                    <li class="opinion-list__item">
+                                        <div class="opinion-list__headshot">
+                                            <a href="#"><img src="https://d.newsweek.com/en/full/1527225/hayaatun-sillem.png?w=63&h=63&f=88fe77692f5748b78bfd037e8175fd41" alt="Hayaatun Sillem"></a>
+                                        </div>
+                                        <div class="opinion-list__info">
+                                            <a class="opinion-list__title link link--red" href="#">The Challenges We Face Call for a Change in Our Culture of Engineering</a>
+                                            <p class="opinion-list__author uppercase">By Hayaatun Sillem</p>
+                                        </div>
+                                    </li>
+                                    <li class="opinion-list__item">
+                                        <div class="opinion-list__headshot">
+                                            <a href="#"><img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="Newt Gingrich"></a>
+                                        </div>
+                                        <div class="opinion-list__info">
+                                            <a class="opinion-list__title link link--red" href="#"> Neither Sanders Nor Biden Can Defeat Each Other Without Hamstringing Party</a>
+                                            <p class="opinion-list__author uppercase">By Newt Gingrich</p>
+                                        </div>
+                                    </li>
+                                    <li class="opinion-list__item">
+                                        <div class="opinion-list__headshot">
+                                            <a href="#"><img src="https://d.newsweek.com/en/full/1572047/leo-hindery-jr.png?w=63&h=63&f=2a6feea62c65a6b23b011fa52d0b2f7e" alt="Leo Hindery Jr"></a>
+                                        </div>
+                                        <div class="opinion-list__info">
+                                            <a class="opinion-list__title link link--red" href="#">Trump's Economy Is a House of Cards. How Will Democrats Prevent Collapse?</a>
+                                            <p class="opinion-list__author uppercase">By Leo Hindery Jr.</p>
+                                        </div>
+                                    </li>
+                                    <li class="opinion-list__item">
+                                        <div class="opinion-list__headshot">
+                                            <a href="#"><img src="https://d.newsweek.com/en/full/1523418/paul-glader.png?w=63&h=63&f=ec1f9d8fc6dc73bd3432243d9e8808e5" alt="Paul Glader"></a>
+                                        </div>
+                                        <div class="opinion-list__info">
+                                            <a class="opinion-list__title link link--red" href="#">Did Jack Welch's Evangelical Faith Change the 'Rock Star' GE Exec?</a>
+                                            <p class="opinion-list__author uppercase">By Paul Glader</p>
+                                        </div>
+                                    </li>
+                                    <li class="opinion-list__item">
+                                        <div class="opinion-list__headshot">
+                                            <a href="#"><img src="https://d.newsweek.com/en/full/1528785/roff-new.png?w=63&h=63&f=4dc2ef8dad149bbca161552d8b875591" alt="Peter Roff"></a>
+                                        </div>
+                                        <div class="opinion-list__info">
+                                            <a class="opinion-list__title link link--red" href="#">Protecting Us All From an Epidemic Should Be Prioritized Over the Economy</a>
+                                            <p class="opinion-list__author uppercase">By Peter Roff</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="section the-debate--1">
+                                <h2 class="news-section__header uppercase">The Debate</h2>
+                                <div class="debate debate--1">
+                                    <div class="debate__head d-flex align-items-center">
+                                        <img class="debate__head__img" src="https://d.newsweek.com/en/full/1569374/doctors-medicare-all.jpg?w=95&h=95&f=f99fbae36904b2a6a2ec6b9dd519eb98" alt="Doctors Medicare for All">
+                                        <a class="debate__link link" href="#">Doctors Who Support Medicare for All Should Be Careful What They Wish For</a>
+                                    </div>
+                                    <div class="debate__author position-relative uppercase d-flex align-items-center">
+                                        <img class="debate__author__headshot position-absolute" src="https://d.newsweek.com/en/full/1569370/sally-pipes.webp?w=150&h=150&f=9f50334f08d26c775798e23fe80202eb" alt="Sally Pipes">
+                                        <p>By <span>Sally C. Pipes</span></p>
+                                    </div>
+                                </div>
+                                <div class="debate__vs"><span class="d-block">VS</span></div>
+                                <div class="debate debate--2">
+                                    <div class="debate__head d-flex align-items-center">
+                                        <img class="debate__head__img" src="https://d.newsweek.com/en/full/1569305/bernie-sanders-america.jpg?w=95&h=95&f=3f4fcbd1169f4dc4cd86ba1960005952" alt="Doctors Medicare for All">
+                                        <a class="debate__link link" href="#">Bernie's Plans Are Ambitious. But They Cost Peanuts Compared to Inaction</a>
+                                    </div>
+                                    <div class="debate__author position-relative uppercase d-flex align-items-center">
+                                        <img class="debate__author__headshot position-absolute" src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=150&h=150&f=2c176c0c8f033bfa75cf307978e49fd4" alt="Robert Reich">
+                                        <p>By <span>obert Reich</span></p>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="section">
+                                <h2 class="news-section__header uppercase">More Stories</h2>
+                            </section>
+                            <section class="section">
+                                <h2 class="news-section__header uppercase">Culture & Travel</h2>
+                            </section>
+                        </div> 
+                    </div>
+                    
+                </div>
+                <div class="col-lg-5">
+                    <div class="col-xs-12 order-lg-3">
+                        <div class="w-100 section__break"></div>
+                        <section class="col-md-12 opinion--2 order-md-3 p-0">
+                            <h2 class="news-section__header uppercase">Opinion</h2>
+                            <ul class="opinion-list">
+                                <li class="opinion-list__item">
+                                    <div class="opinion-list__headshot">
+                                        <a href="#"><img src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=63&h=63&f=241bf306fe74b397c2ecf4116cc79b62" alt="Nigel Farage"></a>
+                                    </div>
+                                    <div class="opinion-list__info">
+                                        <a class="opinion-list__title link link--red" href="#">Protecting Us All From an Epidemic Should Be Prioritized Over the Economy</a>
+                                        <p class="opinion-list__author uppercase">By Nigel Farage</p>
+                                    </div>
+                                </li>
+                                <li class="opinion-list__item">
+                                    <div class="opinion-list__headshot">
+                                        <a href="#"><img src="https://d.newsweek.com/en/full/1527225/hayaatun-sillem.png?w=63&h=63&f=88fe77692f5748b78bfd037e8175fd41" alt="Hayaatun Sillem"></a>
+                                    </div>
+                                    <div class="opinion-list__info">
+                                        <a class="opinion-list__title link link--red" href="#">The Challenges We Face Call for a Change in Our Culture of Engineering</a>
+                                        <p class="opinion-list__author uppercase">By Hayaatun Sillem</p>
+                                    </div>
+                                </li>
+                                <li class="opinion-list__item">
+                                    <div class="opinion-list__headshot">
+                                        <a href="#"><img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="Newt Gingrich"></a>
+                                    </div>
+                                    <div class="opinion-list__info">
+                                        <a class="opinion-list__title link link--red" href="#"> Neither Sanders Nor Biden Can Defeat Each Other Without Hamstringing Party</a>
+                                        <p class="opinion-list__author uppercase">By Newt Gingrich</p>
+                                    </div>
+                                </li>
+                                <li class="opinion-list__item">
+                                    <div class="opinion-list__headshot">
+                                        <a href="#"><img src="https://d.newsweek.com/en/full/1572047/leo-hindery-jr.png?w=63&h=63&f=2a6feea62c65a6b23b011fa52d0b2f7e" alt="Leo Hindery Jr"></a>
+                                    </div>
+                                    <div class="opinion-list__info">
+                                        <a class="opinion-list__title link link--red" href="#">Trump's Economy Is a House of Cards. How Will Democrats Prevent Collapse?</a>
+                                        <p class="opinion-list__author uppercase">By Leo Hindery Jr.</p>
+                                    </div>
+                                </li>
+                                <li class="opinion-list__item">
+                                    <div class="opinion-list__headshot">
+                                        <a href="#"><img src="https://d.newsweek.com/en/full/1523418/paul-glader.png?w=63&h=63&f=ec1f9d8fc6dc73bd3432243d9e8808e5" alt="Paul Glader"></a>
+                                    </div>
+                                    <div class="opinion-list__info">
+                                        <a class="opinion-list__title link link--red" href="#">Did Jack Welch's Evangelical Faith Change the 'Rock Star' GE Exec?</a>
+                                        <p class="opinion-list__author uppercase">By Paul Glader</p>
+                                    </div>
+                                </li>
+                                <li class="opinion-list__item">
+                                    <div class="opinion-list__headshot">
+                                        <a href="#"><img src="https://d.newsweek.com/en/full/1528785/roff-new.png?w=63&h=63&f=4dc2ef8dad149bbca161552d8b875591" alt="Peter Roff"></a>
+                                    </div>
+                                    <div class="opinion-list__info">
+                                        <a class="opinion-list__title link link--red" href="#">Protecting Us All From an Epidemic Should Be Prioritized Over the Economy</a>
+                                        <p class="opinion-list__author uppercase">By Peter Roff</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="col-md-12 the-debate--2 order-md-3">
+                            <h2 class="news-section__header uppercase">The Debate</h2>
+                            <div class="debate debate--1">
+                                <div class="debate__head d-flex align-items-center">
+                                    <img class="debate__head__img" src="https://d.newsweek.com/en/full/1569374/doctors-medicare-all.jpg?w=95&h=95&f=f99fbae36904b2a6a2ec6b9dd519eb98" alt="Doctors Medicare for All">
+                                    <a class="debate__link link" href="#">Doctors Who Support Medicare for All Should Be Careful What They Wish For</a>
+                                </div>
+                                <div class="debate__author position-relative uppercase d-flex align-items-center">
+                                    <img class="debate__author__headshot position-absolute" src="https://d.newsweek.com/en/full/1569370/sally-pipes.webp?w=150&h=150&f=9f50334f08d26c775798e23fe80202eb" alt="Sally Pipes">
+                                    <p>By <span>Sally C. Pipes</span></p>
+                                </div>
+                            </div>
+                            <div class="debate__vs"><span class="d-block">VS</span></div>
+                            <div class="debate debate--2">
+                                <div class="debate__head d-flex align-items-center">
+                                    <img class="debate__head__img" src="https://d.newsweek.com/en/full/1569305/bernie-sanders-america.jpg?w=95&h=95&f=3f4fcbd1169f4dc4cd86ba1960005952" alt="Doctors Medicare for All">
+                                    <a class="debate__link link" href="#">Bernie's Plans Are Ambitious. But They Cost Peanuts Compared to Inaction</a>
+                                </div>
+                                <div class="debate__author position-relative uppercase d-flex align-items-center">
+                                    <img class="debate__author__headshot position-absolute" src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=150&h=150&f=2c176c0c8f033bfa75cf307978e49fd4" alt="Robert Reich">
+                                    <p>By <span>obert Reich</span></p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="col-md-12 order-md-3">
+                            <h2 class="news-section__header uppercase">Latest News</h2>
+                        </section>
+                    </div>
+                </div>                
             </div>
         </main>
         <footer>
