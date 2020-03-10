@@ -320,14 +320,6 @@ body {
   color: #333;
 }
 
-.culture-travel__article {
-  width: 28%;
-}
-
-.culture-travel__article--large {
-  width: 33%;
-}
-
 .culture-travel__article__label {
   position: absolute;
   bottom: 0;
@@ -362,6 +354,75 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 15px;
   color: rgba(39,39,39,0.5);
+}
+
+.latest-news__article {
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.latest-news__shot {
+  height: 95px;
+  width: 95px;
+  margin-right: 15px;
+}
+
+.latest-news__title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.newsletter-signup {
+  max-width: 300px;
+  padding: 20px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+}
+
+.newsletter-signup div {
+  margin-bottom: 15px;
+}
+
+.newsletter-signup__title {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.small__n__logo {
+  margin-right: 10px;
+  width: 29px;
+  height: 28px;
+  background-color: #f72210;
+}
+
+.newsletter-signup__btn {
+  width: auto;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  padding: 10px 10px 10px 12px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #666;
+}
+
+.newsletter-signup__btn:hover {
+  background-color: #999;
+  color: white;
+  text-decoration: none;
+}
+
+.newsletter-signup__preferences {
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+.newsletter-signup__preferences:hover {
+  color: #333;
+  text-decoration: none;
 }
 
 /**************************************************************************
@@ -417,6 +478,14 @@ body {
 
   .top-story--2 {
     display: inline-block;
+  }
+
+  .culture-travel__article {
+    width: 28%;
+  }
+  
+  .culture-travel__article--large {
+    width: 33%;
   }
 }
 
