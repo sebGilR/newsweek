@@ -46,6 +46,11 @@ body {
   text-decoration-color: #f72210;
 }
 
+.link--black:hover {
+  color:black;
+  text-decoration: none;
+}
+
 .header {
   font-weight: bold;
 }
@@ -143,10 +148,11 @@ body {
   padding-bottom: 20px;
 }
 
-.news__article__category {
+.article__category {
   position: absolute;
   bottom: 0;
   left: 0;
+  font-weight: bold;
   padding: 8px 15px 9px;
   background-color: rgba(255,255,255,0.9);
 }
@@ -423,6 +429,38 @@ body {
 .newsletter-signup__preferences:hover {
   color: #333;
   text-decoration: none;
+}
+
+.magazine__section__header {
+  font-size: 19px;
+  line-height: 28px;
+  color: #333;
+  margin: 0 auto 10px;
+}
+
+.magazine__seeall {
+  margin-top: -10px;
+  padding:10px;
+  text-align: center;
+}
+
+.magazine__seeall:hover {
+  background-color: #dbdcdd;
+}
+
+.magazine__category {
+  margin: 10px 0;
+}
+
+.magazine__category a,
+.magazine__category span {
+  line-height: 16px;
+  font-size: 16px;
+  padding: 5px 7px;
+}
+
+.magazine__article__link {
+  margin-bottom: 30px;
 }
 
 /**************************************************************************
