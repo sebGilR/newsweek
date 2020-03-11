@@ -31,7 +31,7 @@ body {
   text-decoration: none;
 }
 
-.link--red:hover{
+.link--red:hover {
   color: #f72210;
   text-decoration: none;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .link--black:hover {
-  color:black;
+  color: black;
   text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 .section__header--1 {
-  color: rgba(3,3,3,0.4);
+  color: rgba(3, 3, 3, 0.4);
   font-size: 16px;
   padding-top: 15px;
   width: 100%;
@@ -121,7 +121,7 @@ body {
   bottom: 0;
   left: 0;
   padding: 8px 15px 9px;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .news__article__header {
@@ -242,7 +242,7 @@ body {
   color: black;
 }
 
-.debate__vs span{
+.debate__vs span {
   height: 40px;
   width: 40px;
   margin: 14px auto 18px;
@@ -287,7 +287,7 @@ body {
 
 .culture-travel__article__label:hover {
   background-color: #272727;
-  color: #c2d4d7; 
+  color: #c2d4d7;
 }
 
 .culture__title {
@@ -306,7 +306,7 @@ body {
 .culture__description {
   font-family: Helvetica, sans-serif;
   font-size: 15px;
-  color: rgba(39,39,39,0.5);
+  color: rgba(39, 39, 39, 0.5);
 }
 
 .latest-news__article {
@@ -377,7 +377,7 @@ body {
 
 .magazine__seeall {
   margin-top: -10px;
-  padding:10px;
+  padding: 10px;
 }
 
 .magazine__seeall:hover {
@@ -415,7 +415,7 @@ body {
 .count {
   width: 70px;
   height: 52px;
-  padding-top:  15px;
+  padding-top: 15px;
   padding-left: 20px;
   font-size: 20px;
   background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0 no-repeat;
@@ -510,7 +510,7 @@ body {
   line-height: 24px;
 }
 
-.footer__social--smaller a{
+.footer__social--smaller a {
   font-size: 20px;
 }
 
@@ -543,7 +543,7 @@ body {
   color: #0077b5;
 }
 
-.footer__links li{
+.footer__links li {
   margin: 6px 20px 6px 0;
 }
 
@@ -556,7 +556,7 @@ body {
     padding: 0 10px;
     font-size: 18px;
   }
-  
+
   .subscribe span {
     display: inline-block;
     margin-left: 10px;
@@ -569,19 +569,19 @@ body {
 **************************************************************************/
 
 @media screen and (min-width: 576px) {
-  .row--first .magazine__article:not(:first-child) img,
-  .row--second .magazine__article img {
+  .magazine__article--focus img {
+    height: 23.3vw !important;
+  }
+
+  .row--second .magazine__article img,
+  .row--first .magazine__article:not(:first-child) img {
     height: 22vw;
     object-fit: cover;
     margin-top: 10px;
   }
 
   .row--second {
-    margin-top: 20px
-  }
-
-  .magazine__article--focus img {
-    height: 23.3vw !important;
+    margin-top: 20px;
   }
 
   .newsletter__image {
@@ -598,11 +598,10 @@ body {
 **************************************************************************/
 
 @media screen and (min-width: 768px) {
-
   .culture-travel__article {
     width: 28%;
   }
-  
+
   .culture-travel__article--large {
     width: 33%;
   }
@@ -613,7 +612,6 @@ body {
 **************************************************************************/
 
 @media screen and (min-width: 992px) {
-    
   .container-fluid {
     max-width: 1310px;
     padding: 0 30px;
@@ -643,7 +641,7 @@ body {
   .header__right {
     align-self: flex-end;
   }
-  
+
   .logo--big {
     display: inline-block;
     width: 396px;
@@ -695,7 +693,7 @@ body {
     width: 63px;
     height: 54px;
     margin: -15px -15px -15px 0;
-    color: rgba(0,0,0,.55);
+    color: rgba(0, 0, 0, 0.55);
     font-size: 16px;
     padding: 0;
     border: 0;
