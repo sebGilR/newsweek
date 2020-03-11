@@ -135,7 +135,7 @@ body {
   display: none;
 }
 
-.news-section__header {
+.section__header--1 {
   color: rgba(3,3,3,0.4);
   font-size: 16px;
   padding-top: 15px;
@@ -168,7 +168,7 @@ body {
   font-weight: bold;
 }
 
-.news__article__description {
+.article__description {
   font-size: 13px;
   margin-bottom: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -431,23 +431,19 @@ body {
   text-decoration: none;
 }
 
-.magazine__section__header {
+.section__header--2 {
   font-size: 19px;
   line-height: 28px;
   color: #333;
-  margin: 0 auto 10px;
+  margin: 0 auto 15px;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 8px;
 }
 
 .magazine__seeall {
   margin-top: -10px;
   padding:10px;
   text-align: center;
-}
-
-.magazine__section__header {
-  border-bottom: 1px solid #d9d9d9;
-  padding-bottom: 8px;
-  margin-bottom: 15px;
 }
 
 .magazine__seeall:hover {
@@ -474,6 +470,21 @@ body {
   bottom: 0;
   left: 0;
   padding: 2px 7px;
+}
+
+.small__n__logo--double {
+  left: 4px;
+  top: 5px;
+  z-index: -1;
+}
+
+.count {
+  width: 70px;
+  height: 52px;
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0 no-repeat;
+  background-size: contain;
+  padding-top:  19px;
+  padding-left: 21px;
 }
 
 /**************************************************************************
