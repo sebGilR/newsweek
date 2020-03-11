@@ -1,10 +1,10 @@
-# Newsweek.com clone
+# Newsweek.com clone with Bootstrap
 
-> This page is being cloned from the original using bootstrap where it is necessary.
+> This page is being cloned from the original using bootstrap where it is possible without affecting the styling from the original. Most of the styles in the style.css file are for custom colors and sizes.
 
 - Original: [newsweek.com](https://www.newsweek.com/)
 
-![screenshot](UPDATE)
+![screenshot](screenshot.png)
 
 ## Built With
 
@@ -14,11 +14,11 @@
 
 ## Live Demo
 
-[Live Demo Link](UPDATE)
+[Live Demo Link](https://rawcdn.githack.com/lBuggie/newsweek/e3056048ef59b0f7aa621cdabf0235fe2f16b7ca/index.html)
 
 ## Authors
 
-👤 **Author1**
+👤 **Sebastian Gil Rodriguez**
 
 - Github: [@lBuggie](https://github.com/lBuggie)
 - Twitter: [@sebGilR](https://twitter.com/sebGilR)
