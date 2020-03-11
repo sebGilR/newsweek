@@ -21,14 +21,8 @@ body {
   color: white;
 }
 
-.wrap {
-  position: relative;
-  margin-bottom: 10px;
-}
-
 .link {
   color: black;
-  text-decoration: none;
 }
 
 .link--red:hover {
@@ -49,7 +43,6 @@ body {
 
 .header__top {
   line-height: 26px;
-  padding: 13px;
   height: 53px;
   color: white;
 }
@@ -69,7 +62,6 @@ body {
 
 .header__weather {
   font-size: 15px;
-  margin-left: 20px;
 }
 
 .header__weather:hover {
@@ -83,7 +75,6 @@ body {
 
 .header__right a {
   font-size: 14px;
-  padding: 0 3px;
 }
 
 .subscribe {
@@ -109,23 +100,15 @@ body {
 .section__header--1 {
   color: rgba(3, 3, 3, 0.4);
   font-size: 16px;
-  padding-top: 15px;
-  width: 100%;
-}
-
-.news__article {
-  padding-bottom: 20px;
 }
 
 .article__category {
   bottom: 0;
   left: 0;
-  padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
 .news__article__header {
-  margin-bottom: 10px;
   font-size: 20px;
 }
 
@@ -135,13 +118,11 @@ body {
 
 .article__description {
   font-size: 13px;
-  margin-bottom: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
 
 .news__article__related {
-  padding: 10px 0;
   font-size: 17px;
   border-top: 1px solid #d9d9d9;
 }
@@ -158,20 +139,13 @@ body {
 
 .opinion-list__item {
   display: flex;
-  padding: 10px 0;
 }
 
 .opinion-list__item:not(:first-child) {
   border-top: 1px solid #ddd;
 }
 
-.opinion-list__headshot {
-  margin-right: 15px;
-}
-
 .opinion-list__author {
-  margin-top: 4px;
-  margin-bottom: 0;
   color: #555;
 }
 
@@ -190,7 +164,6 @@ body {
 .debate__head__img {
   width: 95px;
   height: 95px;
-  margin-right: 15px;
 }
 
 .debate__link:hover {
@@ -234,8 +207,6 @@ body {
 .debate__author p {
   font-size: 14px;
   color: #555;
-  margin-top: 4px;
-  margin-bottom: 0;
 }
 
 .debate__author span {
@@ -245,7 +216,6 @@ body {
 .debate__vs span {
   height: 40px;
   width: 40px;
-  margin: 14px auto 18px;
   border-radius: 50%;
   line-height: 40px;
   font-size: 14px;
@@ -254,14 +224,12 @@ body {
 }
 
 .more-stories__story {
-  padding: 14px 0;
   border-top: 1px solid #ddd;
 }
 
 .stories__shot {
   height: 95px;
   width: 95px;
-  margin-right: 15px;
 }
 
 .more-stories__header {
@@ -278,7 +246,6 @@ body {
   bottom: 0;
   left: 0;
   line-height: 20px;
-  padding: 0 6px;
   font-size: 13px;
   font-family: Helvetica, sans-serif;
   color: #272727;
@@ -310,7 +277,6 @@ body {
 }
 
 .latest-news__article {
-  padding: 10px 0;
   border-top: 1px solid #ddd;
 }
 
@@ -320,14 +286,8 @@ body {
 
 .newsletter-signup {
   max-width: 300px;
-  padding: 20px;
-  margin: 0 auto 30px;
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
-}
-
-.newsletter-signup div {
-  margin-bottom: 15px;
 }
 
 .newsletter-signup__title {
@@ -335,7 +295,6 @@ body {
 }
 
 .small__n__logo {
-  margin-right: 10px;
   width: 29px;
   height: 28px;
   background-color: #f72210;
@@ -344,8 +303,6 @@ body {
 .newsletter-signup__btn {
   font-size: 18px;
   line-height: 18px;
-  padding: 10px 10px 10px 12px;
-  margin-bottom: 10px;
   color: white;
   background-color: #666;
 }
@@ -370,22 +327,16 @@ body {
   font-size: 19px;
   line-height: 28px;
   color: #333;
-  margin: 0 auto 15px;
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 12px;
 }
 
 .magazine__seeall {
   margin-top: -10px;
-  padding: 10px;
 }
 
 .magazine__seeall:hover {
   background-color: #dbdcdd;
-}
-
-.magazine__category {
-  margin: 10px 0;
 }
 
 .magazine__category a,
@@ -403,7 +354,6 @@ body {
 .magazine__article--focus span {
   bottom: 0;
   left: 0;
-  padding: 2px 7px;
 }
 
 .small__n__logo--double {
@@ -415,38 +365,33 @@ body {
 .count {
   width: 70px;
   height: 52px;
-  padding-top: 15px;
-  padding-left: 20px;
   font-size: 20px;
+  bottom: 0;
+  left: 0;
   background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0 no-repeat;
   background-size: contain;
 }
 
 .subscribe-section p {
-  margin-bottom: 15px;
   font-size: 15px;
   font-family: Helvetica, sans-serif;
 }
 
 .subscribe-section h3 {
   font-size: 20px;
-  margin-bottom: 15px;
 }
 
 .subscribe-section h4 {
   font-size: 16px;
-  margin-bottom: 15px;
 }
 
 .subscribe-section__subscribe__container {
-  padding: 24px 20px 20px 20px;
   margin-bottom: 40px;
 }
 
 .subscribe-section__subscribe__images {
   max-width: 260px;
   height: 241px;
-  margin: 0 auto 15px auto;
 }
 
 .top-left {
@@ -463,7 +408,6 @@ body {
 .sub__button {
   font-size: 18px;
   line-height: 18px;
-  padding: 10px;
 }
 
 .newsletter__image {
@@ -495,12 +439,6 @@ body {
   font-size: 14px;
 }
 
-.footer__copyright,
-.footer__logo,
-.footer__social {
-  margin-bottom: 12px;
-}
-
 .footer__social :not(:first-child) {
   margin-left: 10px;
 }
@@ -516,7 +454,6 @@ body {
 
 .footer__logo {
   width: 236px;
-  margin-right: 15px;
 }
 
 .footer__copyright {
@@ -541,10 +478,6 @@ body {
 
 .fa-linkedin-in:hover {
   color: #0077b5;
-}
-
-.footer__links li {
-  margin: 6px 20px 6px 0;
 }
 
 /**************************************************************************
