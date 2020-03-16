@@ -20,7 +20,7 @@
 
 👤 **Sebastian Gil Rodriguez**
 
-- Github: [@lBuggie](https://github.com/sebGilR)
+- Github: [@sebGilR](https://github.com/sebGilR)
 - Twitter: [@sebGilR](https://twitter.com/sebGilR)
 - Linkedin: [linkedin](https://www.linkedin.com/in/sebastianGilRodriguez)
 
