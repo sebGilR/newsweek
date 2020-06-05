@@ -6,6 +6,10 @@
 
 ![screenshot](screenshot.png)
 
+## Potential Features
+
+- Use either API or web scrapping to get up to date articles published by Newsweek.
+
 ## Built With
 
 - HTML5, CSS3
