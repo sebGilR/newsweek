@@ -1,6 +1,6 @@
 # Newsweek.com clone with Bootstrap
 
-> This page is being cloned from the original using bootstrap where it is possible without affecting the styling from the original. Most of the styles in the style.css file are for custom colors and sizes.
+> This page is cloned from the original using bootstrap where it is possible, without affecting the styling from the original. Most of the styles in the style.css file are for custom colors and sizes.
 
 - Original: [newsweek.com](https://www.newsweek.com/)
 
@@ -27,8 +27,6 @@
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
